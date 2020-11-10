@@ -26,7 +26,7 @@ SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['fierce-thicket-91337.herokuapp.com']
 
 
 # Application definition
