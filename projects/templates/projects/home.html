@@ -12,7 +12,7 @@
     <meta name="generator" content="Jekyll v4.1.1">
 
     <!-- title -->
-    <title>Django Portfolio</title>
+    <title>Ishani's Django Portfolio</title>
     <!-- site icon -->
     <link rel="icon" href="{% static 'rainbow.png' %}">
 
@@ -121,7 +121,6 @@
                     {% for project in projects.all %}
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="{% static 'python.png' %}" height=350px width=100% alt="Project Image">
                             <div class="card-body text-center">
                                 <p class="card-text">{{ project.name }}</p>
                                 <p class="card-text">{{ project.summary }}</p>
